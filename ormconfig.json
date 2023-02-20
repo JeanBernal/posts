@@ -1,0 +1,18 @@
+{
+    "type": "postgres",
+    "host": "localhost",
+    "port": 5432,
+    "username": "postgres",
+    "password": "b1022384075n",
+    "database": "okboy_posts",
+    "entities": [
+      "src/domain/**/*.entity.ts"
+    ],
+    "migrations": [
+      "src/infraestructure/database/migrations/*.ts"
+    ],
+    "cli": {
+      "migrationsDir": "src/infraestructure/database/migrations"
+    }
+  }
+  

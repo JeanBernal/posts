@@ -1,0 +1,28 @@
+{
+    "development": {
+      "username": "postgres",
+      "password": "b1022384075n",
+      "database": "okboy_posts",
+      "host": "127.0.0.1",
+      "dialect": "postgres",
+      "migrations-path": "./database/migrations"
+    },
+    "test": {
+        "username": "postgres",
+        "password": "b1022384075n",
+        "database": "okboy_posts",
+        "host": "127.0.0.1",
+        "dialect": "postgres",
+        "migrations-path": "C:/Users/Usuario/Developer/posts/src/infraestructure/database/migrations"
+    },
+    "production": {
+      "use_env_variable": "DATABASE_URL",
+      "dialect": "postgres",
+      "dialectOptions": {
+        "ssl": {
+          "require": true,
+          "rejectUnauthorized": false
+        }
+      }
+    }
+  }
